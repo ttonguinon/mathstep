@@ -1,0 +1,37 @@
+# Solaris Math · archivos que no deben subirse al repositorio
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+Icon?
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Archivos temporales y de Office
+~$*
+*.tmp
+*.bak
+*.log
+
+# Dependencias y compilados (por si en el futuro se usan herramientas)
+node_modules/
+dist/
+.cache/
+
+# Documentos internos del proyecto (no publicar)
+privado/
+borradores/
+*.xlsx
+*.docx
+*.pptx
+*.zip
+
+# Credenciales y configuración local
+.env
+*.pem
+secretos*
